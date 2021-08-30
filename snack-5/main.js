@@ -17,3 +17,19 @@ while ( maggiore.length > minore.length ) {
 }
 // stampa degli array
 console.log(maggiore, minore);
+
+/* if (maggiore.length < minore.length) {
+    while (maggiore.length < minore.length) {
+        maggiore.push(Math.floor(Math.random() * 100));
+    }
+} else if (maggiore.length > minore.length) {
+    while (maggiore.length > minore.length) {
+        minore.push(Math.floor(Math.random() * 100));
+    }
+} else  {
+    alert ("gli array hanno la stessa lunghezza");
+}
+
+console.log ("array 1: ", maggiore);
+console.log ("array 2: ", minore); */
+
